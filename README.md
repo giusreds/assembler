@@ -1,6 +1,6 @@
 Questo repository include il necessario per programmare in Assembler su sistemi Mac OS nel corso di **Reti Logiche**, *Ingegneria Informatica, Università di Pisa*. 
 
-**L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che i nuovi basati su Apple Silicon.**
+**L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che sui nuovi basati su Apple Silicon.**
 
 > ## ⛔️ Disclaimer
 >
@@ -22,14 +22,14 @@ Scompattare la cartella di lavoro a piacimento nel proprio file system. Supponen
 La gerarchia della cartella di lavoro apparirà così ([📷 Screenshot](./.github/doc/workspace_folder.png)):
 
 ```
-assembler				    # Radice cartella di lavoro
-├── .vscode				    # Configurazione di VS Code
+assembler                   # Radice cartella di lavoro
+├── .vscode                 # Configurazione di VS Code
 │   └── tasks.json
 ├── files
 |   ├── dosbox.app          # Eseguibile DOSBox per Mac OS
 │   ├── GAS
 │   ├── tasks.sh
-│   └── utility.s		    # Libreria I/O
+│   └── utility.s           # Libreria I/O
 └── demo
     ├── demo1.s
     ├── ...                 # Programmi di esempio
