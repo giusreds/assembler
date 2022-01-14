@@ -1,6 +1,6 @@
 <div align="center">
 
-![Logo](./.github/doc/logo.png)
+[![Logo](./.github/doc/logo.png)](#)
 
 # Assembler per Mac OS
 
@@ -46,7 +46,7 @@ assembler                   # Radice cartella di lavoro
 
 Contemporaneamente, nella taskbar di Visual Studio Code, appariranno tre pulsanti:
 
-![Buttons](./.github/doc/buttons.png)
+[![Buttons](./.github/doc/buttons.png)](#)
 
 # 🎯 Utilizzo
 
