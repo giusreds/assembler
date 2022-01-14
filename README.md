@@ -1,12 +1,12 @@
 <div align="center">
 
-[![Logo](./.github/doc/logo.png)](#)
+![Logo](./.github/doc/logo.png)
 
-# Assembler per Mac OS
+# Assembler per Mac
 
 </div>
 
-Questo repository include il necessario per programmare in Assembler su sistemi Mac OS nel corso di **Reti Logiche**, *Ingegneria Informatica, Università di Pisa*. 
+Questo repository include il necessario per programmare in Assembler su sistemi Mac OS nel corso di **Reti Logiche**, Ingegneria Informatica, Università di Pisa. 
 
 **L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che sui nuovi basati su Apple Silicon.**
 
@@ -46,7 +46,7 @@ assembler                   # Radice cartella di lavoro
 
 Contemporaneamente, nella taskbar di Visual Studio Code, appariranno tre pulsanti:
 
-[![Buttons](./.github/doc/buttons.png)](#)
+![Buttons](./.github/doc/buttons.png)
 
 # 🎯 Utilizzo
 
