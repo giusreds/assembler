@@ -1,9 +1,3 @@
-<div align="center">
-
-# Ambiente di sviluppo Assembler per Mac OS
-
-</div>
-
 Questo repository include il necessario per programmare in Assembler su sistemi Mac OS nel corso di **Reti Logiche**, *Ingegneria Informatica, Università di Pisa*. 
 
 **L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che i nuovi basati su Apple Silicon.**
@@ -21,7 +15,7 @@ Necessario:
 - [Visual Studio Code](https://code.visualstudio.com)
 - Estensione [GNU Assembler Language Support](https://marketplace.visualstudio.com/items?itemName=basdp.language-gas-x86)
 - Estensione [Tasks](https://marketplace.visualstudio.com/items?itemName=actboy168.tasks)
-- Cartella di lavoro ([⬇️ Download *assembler.zip*](https://github.com/giusreds/assembler/releases/latest/assembler.zip))
+- Cartella di lavoro ([⬇️ Download *assembler.zip*](https://github.com/giusreds/assembler/releases/latest/download/assembler.zip))
 
 Scompattare la cartella di lavoro a piacimento nel proprio file system. Supponendo che il nome della stessa sia *assembler*, avviare Visual Studio Code e fare *File > Open folder...*  e selezionare la cartella *assembler*.
 
@@ -75,8 +69,6 @@ Per eseguire il codice, dopo averlo correttamente assemblato, fare click su *Run
 
 Per debuggare il codice, dopo averlo correttamente assemblato, fare click su *Debug* in basso a sinistra nella barra. Verrà lanciato GDB sotto DOSBox.
 
-
-
 # 💪 Extra
 
 Di default, l'ambiente è configurato per non mostrare il terminale di sistema con l'output dello script che esegue i tasks. Per modificare questo comportamento, modificare il file *.vscode/tasks.json* impostando:
@@ -84,6 +76,7 @@ Di default, l'ambiente è configurato per non mostrare il terminale di sistema c
 ```json
 "reveal": "always"
 ```
+
 ---
 
 Made with ❤️ by Giuseppe Rossi
