@@ -4,7 +4,7 @@ Questo repository include il necessario per programmare in Assembler su sistemi 
 
 > ## ⛔️ Disclaimer
 >
-> Parte del materiale contenuto nel repository è quello **ufficiale** fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [utility.s](./src/files/utility.s) contenente le funzioni per gestire I/O e i files [demo](./src/demo/). 
+> Parte del materiale contenuto nel repository è quello **ufficiale** fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [utility.s](./assembler/files/utility.s) contenente le funzioni per gestire I/O e i files [demo](./assembler/demo/). 
 >
 > Per quanto rientra nella mia conoscenza, tutto ciò è di pubblico dominio, pertanto non si configura alcuna violazione di norme sul diritto d'autore. Se così non fosse, si prega di segnalarlo contattandomi privatamente.
 
