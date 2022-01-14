@@ -1,0 +1,39 @@
+// Made by Giuseppe Rossi
+{
+    "version": "2.0.0",
+    "presentation": {
+        "focus": false,
+        "reveal": "never",
+        "close": false,
+        "clear": true
+    },
+    "type": "shell",
+    "options": {
+        "cwd": "${workspaceFolder}"
+    },
+    "tasks": [
+        {
+            "label": "$(pass) Assemble",
+            "command": "${workspaceFolder}/files/tasks.sh",
+            "args": ["-a", "${fileDirname}/${fileBasenameNoExtension}"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "$(play) Run",
+            "command": "${workspaceFolder}/files/tasks.sh",
+            "args": ["-r", "${fileDirname}/${fileBasenameNoExtension}"],
+            "dependsOn": [],
+            "group": "test"
+        },
+        {
+            "label": "$(debug-alt) Debug",
+            "command": "${workspaceFolder}/files/tasks.sh",
+            "args": ["-d", "${fileDirname}/${fileBasenameNoExtension}"],
+            "dependsOn": [],
+            "group": "test"
+        }
+    ]
+}

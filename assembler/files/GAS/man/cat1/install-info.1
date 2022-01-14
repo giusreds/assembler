@@ -1,0 +1,132 @@
+
+
+
+INSTALL-INFO(1)           User Commands           INSTALL-INFO(1)
+
+
+NNAAMMEE
+       install-info - update info/dir entries
+
+SSYYNNOOPPSSIISS
+       iinnssttaallll--iinnffoo [_O_P_T_I_O_N]... [_I_N_F_O_-_F_I_L_E [_D_I_R_-_F_I_L_E]]
+
+DDEESSCCRRIIPPTTIIOONN
+       Install  or  delete dir entries from INFO-FILE in the Info
+       directory file DIR-FILE.
+
+OOPPTTIIOONNSS
+       ----ddeelleettee
+              delete  existing   entries   for   INFO-FILE   from
+              DIR-FILE; don't insert any new entries.
+
+       ----ddiirr--ffiillee=_N_A_M_E
+              specify  file name of Info directory file.  This is
+              equivalent to using the DIR-FILE argument.
+
+       ----eennttrryy=_T_E_X_T
+              insert TEXT  as  an  Info  directory  entry.   TEXT
+              should have the form of an Info menu item line plus
+              zero or more extra lines starting with  whitespace.
+              If  you  specify  more than one entry, they are all
+              added.  If you don't specify any entries, they  are
+              determined   from  information  in  the  Info  file
+              itself.
+
+       ----hheellpp display this help and exit.
+
+       ----iinnffoo--ffiillee=_F_I_L_E
+              specify Info file  to  install  in  the  directory.
+              This is equivalent to using the INFO-FILE argument.
+
+       ----iinnffoo--ddiirr=_D_I_R
+              same as ----ddiirr--ffiillee=_D_I_R/dir.
+
+       ----iitteemm=_T_E_X_T
+              same as ----eennttrryy TEXT.  An Info directory  entry  is
+              actually a menu item.
+
+       ----qquuiieett
+              suppress warnings.
+
+       ----rreemmoovvee
+              same as ----ddeelleettee.
+
+       ----sseeccttiioonn=_S_E_C
+              put  this  file's  entries  in  section  SEC of the
+              directory.  If you specify more than  one  section,
+              all  the entries are added in each of the sections.
+              If you don't specify any sections, they are  deter-
+              mined from information in the Info file itself.
+
+
+
+
+install-info 4.8          December 2004                         1
+
+
+
+
+
+INSTALL-INFO(1)           User Commands           INSTALL-INFO(1)
+
+
+       ----vveerrssiioonn
+              display version information and exit.
+
+RREEPPOORRTTIINNGG BBUUGGSS
+       Email  bug  reports  to bug-texinfo@gnu.org, general ques-
+       tions and  discussion  to  help-texinfo@gnu.org.   Texinfo
+       home page: http://www.gnu.org/software/texinfo/
+
+CCOOPPYYRRIIGGHHTT
+       Copyright  (C)  2004 Free Software Foundation, Inc.  There
+       is NO warranty.  You may redistribute this software  under
+       the  terms  of  the  GNU General Public License.  For more
+       information about these matters, see the files named COPY-
+       ING.
+
+SSEEEE AALLSSOO
+       The full documentation for iinnssttaallll--iinnffoo is maintained as a
+       Texinfo manual.  If the iinnffoo and iinnssttaallll--iinnffoo programs are
+       properly installed at your site, the command
+
+              iinnffoo iinnssttaallll--iinnffoo
+
+       should give you access to the complete manual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+install-info 4.8          December 2004                         2
+
+
