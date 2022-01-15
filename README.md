@@ -1,9 +1,6 @@
 <div align="center">
-
-![Logo](./.github/doc/logo.png)
-
-# Assembler per Mac
-
+<img alt="Logo" src="./.github/doc/logo-min.png" width="100">
+<h1>Assembler per Mac</h1>
 </div>
 
 Questo repository include il necessario per programmare in Assembler su sistemi Mac OS nel corso di **Reti Logiche**, Ingegneria Informatica, Università di Pisa. 
