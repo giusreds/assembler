@@ -2,7 +2,7 @@
 name: Copyright claim
 about: Segnala una violazione delle norme sul diritto d'autore
 title: "[COPYRIGHT]"
-labels: ''
+labels: 'copyright'
 assignees: ''
 
 ---

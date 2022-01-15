@@ -2,7 +2,7 @@
 name: Malfunzionamento
 about: Segnala un bug e aiutami a migliorare
 title: "[BUG]"
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
