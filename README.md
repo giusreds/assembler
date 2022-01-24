@@ -93,4 +93,4 @@ Di default, l'ambiente è configurato per non mostrare il terminale di sistema c
 
 ---
 
-Made with ❤️ by Giuseppe Rossi
+Made with ❤️ by **Giuseppe Rossi**
