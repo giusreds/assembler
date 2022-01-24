@@ -74,6 +74,15 @@ Per eseguire il codice, dopo averlo correttamente assemblato, fare click su *Run
 
 Per debuggare il codice, dopo averlo correttamente assemblato, fare click su *Debug* in basso a sinistra nella barra. Verrà lanciato GDB sotto DOSBox.
 
+# 🏆 Vantaggi
+
+Rispetto all'ambiente di sviluppo originale per Windows (basato su DOSBox):
+
+- Non è necessario scrivere comandi nel terminale
+- L'assemblatore non sovrascrive il file sorgente
+- Il file sorgente può terminare con una riga non vuota
+- Nessun problema di lunghezza del nome del file
+
 # 💪 Extra
 
 Di default, l'ambiente è configurato per non mostrare il terminale di sistema con l'output dello script che esegue i tasks. Per modificare questo comportamento, modificare il file *.vscode/tasks.json* impostando:
