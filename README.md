@@ -7,7 +7,7 @@ Questo repository include il necessario per programmare in Assembler su sistemi 
 
 **L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che sui nuovi basati su Apple Silicon.**
 
-> ## ⛔️ Disclaimer
+> ### ⛔️ Disclaimer
 >
 > Parte del materiale contenuto nel repository è quello **ufficiale** fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [utility.s](./assembler/files/utility.s) con le funzioni per gestire I/O e i files [demo](./assembler/demo/).
 >
@@ -81,7 +81,7 @@ Rispetto all'ambiente originale, basato su DOSBox, per Windows, sono stati risol
 - L'assemblatore non corrompe il file sorgente
 - Nessun problema di lunghezza del nome del file
 
-## 🖥 Modalità verbosa
+### 🖥 Modalità verbosa
 
 Di default, l'ambiente è configurato per non mostrare il terminale di sistema con l'output dello script che esegue i tasks. Per modificare questo comportamento, modificare il file *.vscode/tasks.json* impostando:
 
