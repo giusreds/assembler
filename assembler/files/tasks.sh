@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Made by Giuseppe Rossi
 srcname="ASSEMBLY"
 start_dosbox="./files/dosbox.app/Contents/MacOS/DOSBox"
