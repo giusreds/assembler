@@ -20,7 +20,7 @@ Necessario:
 - [Visual Studio Code](https://code.visualstudio.com)
 - Estensione [GNU Assembler Language Support](https://marketplace.visualstudio.com/items?itemName=basdp.language-gas-x86)
 - Estensione [Tasks](https://marketplace.visualstudio.com/items?itemName=actboy168.tasks)
-- Cartella di lavoro ([⬇️ Download *assembler.zip*](https://github.com/giusreds/assembler/releases/latest/download/assembler.zip))
+- Cartella di lavoro ([⬇️ Download *assembler.tgz*](https://github.com/giusreds/assembler/releases/latest/download/assembler.tgz))
 
 Scompattare la cartella di lavoro a piacimento nel proprio file system. Supponendo che il nome della stessa sia *assembler*, avviare Visual Studio Code e fare *File > Open folder...*  e selezionare la cartella *assembler*.
 
@@ -68,7 +68,7 @@ Per assemblare il codice, fare clic su *Assemble* in basso a sinistra nella barr
 
 ## ▶️ Esecuzione
 
-Per eseguire il codice, dopo averlo correttamente assemblato, fare click su *Run* in basso a sinistra nella barra. Il proprio programma verrà eseguito sotto DOSBox. Al termine dell'esecuzione, verrà chiesto di premere un tasto qualsiasi per terminare l'emulatore.
+Per eseguire il codice, dopo averlo correttaåmente assemblato, fare click su *Run* in basso a sinistra nella barra. Il proprio programma verrà eseguito sotto DOSBox. Al termine dell'esecuzione, verrà chiesto di premere un tasto qualsiasi per terminare l'emulatore.
 
 ## 🐞 Debugging
 
