@@ -7,11 +7,11 @@ Questo repository include il necessario per programmare in Assembler su sistemi 
 
 **L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che sui nuovi basati su Apple Silicon.**
 
-> ### ⛔️ Disclaimer
+> ### ⛔️ Importante
 >
-> Parte del materiale contenuto nel repository è quello **ufficiale** fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [utility.s](./assembler/files/utility.s) con le funzioni per gestire I/O e i files [demo](./assembler/demo/).
+> Questo ambiente di sviluppo **non è ufficiale**. Si consiglia di far riferimento alle indicazioni e al sito dei docenti per eventuali modifiche o aggiornamenti.
 >
-> Per quanto rientra nella mia conoscenza, tutto ciò è di pubblico dominio, pertanto non si configura alcuna violazione di norme sul diritto d'autore. Se così non fosse, si prega di segnalarlo tramite la funzione [Issues](https://github.com/giusreds/assembler/issues/new/choose) di GitHub o contattandomi privatamente.
+> Parte del materiale contenuto nel repository è quello ufficiale fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [utility.s](./assembler/files/utility.s) con le funzioni per gestire I/O e i files [demo](./assembler/demo/). Lo script [build.sh](./build.sh) provvede a scaricarli automaticamente.
 
 # 🔧 Setup
 
@@ -20,7 +20,7 @@ Necessario:
 - [Visual Studio Code](https://code.visualstudio.com)
 - Estensione [GNU Assembler Language Support](https://marketplace.visualstudio.com/items?itemName=basdp.language-gas-x86)
 - Estensione [Tasks](https://marketplace.visualstudio.com/items?itemName=actboy168.tasks)
-- Cartella di lavoro ([⬇️ Download *assembler.tgz*](https://github.com/giusreds/assembler/releases/latest/download/assembler.tgz))
+- Cartella di lavoro ([⬇️ Download *assembler.zip*](https://github.com/giusreds/assembler/releases/latest/download/assembler.zip))
 
 Scompattare la cartella di lavoro a piacimento nel proprio file system. Supponendo che il nome della stessa sia *assembler*, avviare Visual Studio Code e fare *File > Open folder...*  e selezionare la cartella *assembler*.
 
