@@ -68,7 +68,7 @@ Per assemblare il codice, fare clic su *Assemble* in basso a sinistra nella barr
 
 ## ▶️ Esecuzione
 
-Per eseguire il codice, dopo averlo correttaåmente assemblato, fare click su *Run* in basso a sinistra nella barra. Il proprio programma verrà eseguito sotto DOSBox. Al termine dell'esecuzione, verrà chiesto di premere un tasto qualsiasi per terminare l'emulatore.
+Per eseguire il codice, dopo averlo correttamente assemblato, fare click su *Run* in basso a sinistra nella barra. Il proprio programma verrà eseguito sotto DOSBox. Al termine dell'esecuzione, verrà chiesto di premere un tasto qualsiasi per terminare l'emulatore.
 
 ## 🐞 Debugging
 
