@@ -7,11 +7,11 @@ Questo repository include il necessario per programmare in Assembler su sistemi 
 
 **L'ambiente è adatto all'utilizzo sia su sistemi basati su Intel che sui nuovi basati su Apple Silicon.**
 
-> ### ⛔️ Importante
+> ### ⛔️ Disclaimer
 >
 > Questo ambiente di sviluppo **non è ufficiale**. Si consiglia di far riferimento alle indicazioni e al sito dei docenti per eventuali modifiche o aggiornamenti.
 >
-> Parte del materiale contenuto nel repository è quello ufficiale fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [utility.s](./assembler/files/utility.s) con le funzioni per gestire I/O e i files [demo](./assembler/demo/). Lo script [build.sh](./build.sh) provvede a scaricarli automaticamente.
+> Parte del materiale contenuto nel repository è quello ufficiale fornito dai docenti. In particolare, l'ambiente GAS per MS-DOS, la libreria [*utility.s*](./assembler/files/utility.s) con le funzioni per gestire I/O e i files [*demo*](./assembler/demo/). 
 
 # 🔧 Setup
 

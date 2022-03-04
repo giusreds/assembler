@@ -1,5 +1,4 @@
 #!/bin/sh
-# Made by Giuseppe Rossi
 srcname="ASSEMBLY"
 start_dosbox="./files/dosbox.app/Contents/MacOS/DOSBox"
 modded_s=$(echo "$2" | sed 's/\(.*\)\..*/\1/')
