@@ -33,8 +33,6 @@ else
         # Assemble
         if [ -f "$2.s" ]; then
             cp "$2.s" ./$srcname.S 1>/dev/null 2>&1
-            # Add new line at the end of the file
-            echo -en "\n" >> ./$srcname.S 2>&1
             echo "Assembling \"$2.s\" in DOSBox..."
             $start_dosbox -c "@echo off" -c "MOUNT C ." -c "C:" -c "SET PATH=C:\files\GAS\BIN;%PATH%" -c "SET DJGPP=C:\files\GAS\DJGPP.ENV" -c "cls" -c "gcc -o $srcname.S -Wa,-a -Wa,--defsym,DOS=1 >NUL -g $srcname.S" -c "pause" -c "exit" 1>/dev/null 2>&1
             rm -f ./$srcname.S 1>/dev/null 2>&1
